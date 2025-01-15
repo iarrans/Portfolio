@@ -75,62 +75,43 @@ https://templatemo.com/tm-536-dream-pulse
                     <h1 class="tm-color-primary tm-secStion-title mb-4">Novatuno</h1>
                       <div class="col-12 tm-section-pad">
                           <div class="tm-flex-item-left">
+
                               <div class="tm-w-80">
-                                <p class="mb-5">
-                                  <h2 class="tm-color-primary tm-secStion-title mb-4">Project data</h2>
-                                  <br><b>Date:</b> Started on June 2023, still on development.
-                                  <br><b>Team role:</b> Solo Development, with the help of music producer and composer Enrique Lacave and an early version of the Main Menu's UI art by Viktor Anta.
-                                  <br><b>Itch.io page:</b> <a href="https://isabel-arrans.itch.io/novatuno"> Novatuno</a>
-                                  <br><b>Trailer:</b> <a href="https://www.youtube.com/watch?v=o__VOZegSVI"> V0.5 Trailer</a>
-                                    <br><b>Github:</b> <a href="https://github.com/iarrans/VideojuegoTuna">Novatuno repository</a>.If not visible, contact me at isabelarrans@gmail.com
-                                    <br><b>Engine:</b> Unity
-                                    <br><b>Programming Languages:</b> C#
-                                    <br><b>Additional plugins or libraries:</b> 
+                                  <p class="mb-5">
+                                      <h2 class="tm-color-primary tm-secStion-title mb-4">Game Remarks</h2>
+                                      <br> Novatuno is a Rhythm game based on spanish traditional "Tuna". The gameplay is <b>similar to games like Guitar Hero and Friday Night Funkin</b>, but adding a new mechanic called <b>"Chord Change"</b>, meaning player has to play the note on time while being on the correct chord. The chord changes occur cyclically.
+                                      <br><br> An <b>special tool</b> has been scripted to generate new levels using <b>any single-instrument melody in .midi format</b>. The game also features an <b>online ranking</b> which stores best 10 scores in a song.
+                                      <br><br> Great part of the game design has been made based on different <b>interviews and conversations</b> with different members of the tuna community. Stories and locations are also based on real life ones.
+                                      An early demo of the game with three different levels, published on itch, became very relevant amongst the "Tuna" community and several people are waiting for the future full version.
+                                  </p>
+                              </div>
+
+                              <div class="tm-w-80">
+                                  <p class="mb-5">
+                                      <h2 class="tm-color-primary tm-secStion-title mb-4">Main features and technologies</h2>
+                                      <b>Game Engine:</b> <b>Unity, C#</b> as main programming language.
+                                      <br><b>Platforms:</b> Android, Windows.
+                                      <br><b>Itch.io page:</b> <a href="https://isabel-arrans.itch.io/novatuno"> Novatuno Demo</a>
+                                      <br><b>Github:</b> <a href="https://github.com/iarrans/VideojuegoTuna">Repository</a>. (If not visible, contact me at isabelarrans@gmail.com)
+
+                                      <br><br><b>Main features:</b>
                                       <ul>
-                                          <li><b>DryWetMidi by Melanchall:</b> Used in a tool created for Novatuno for translating .midi into a csv with timestamps and corresponding notes.</li>
-                                          <li><b>Dreamlo leaderboards by Carmine T. Guida:</b> Simple API REST used to store and edit an online leaderboard. For future updates, it will be replaced by Google's Firebase Database.</li>
-                                          <li><b>Ink by Inkle studios:</b> will be used for the narrative part in Novatuno's story mode. Some testing scripts and scenes can be found on the project.</li>
-                                      </ul>               
-                                </p>
-                            </div>
+                                          <li><b>Basic rhythm behaviour:</b> Functions to syncronize note spawns with music tracks and scoring, using a txt files with specific fields to store notes information and their timestamps.</li>
+                                          <li><b>Level Creator tool:</b> Tool that translates any .midi file into a .txt level and automatically assigns specific notes, based on note frequency. Levels can be edited later on changing geerated txt file. For reading the midis, an external library called DryWetMidi was used.</li>
+                                          <li><b>Basic Online Ranking:</b>API REST used to manage an online leaderboard that stores top 10 scores for each level and difficulty. External API used, called Dreamlo.</li>
+                                          <li><b>Basic text narrative:</b> Narrative prototype using text boxes. External plugin used called Ink.</li>
+                                      </ul>
+                                  </p>
+                              </div>
 
-                            <div class="tm-w-80">
-                                <p class="mb-5">
-                                  <h2 class="tm-color-primary tm-secStion-title mb-4">Resume</h2>
+                              <div class="tm-w-80">
+                                  <p class="mb-5">
+                                      <h2 class="tm-color-primary tm-secStion-title mb-4">Gameplay Screenshot</h2>
+                                      <b>Trailer:</b> <a href="https://www.youtube.com/watch?v=o__VOZegSVI"> V0.5 Trailer</a>
+                                  <br><img src="img/novatuno/gameplay2.jpg" alt="Novatuno Itch image" class="img-fluid"><br>
 
-                                    <br><b>Platforms:</b> Android, Windows.
-                                    <br><b>Genre:</b> Rhythm.
-                                    <br><b>Target:</b> 25 to 35 years and people who are part of a 'tuna'.
-                                    <br><b>Summary:</b> In Novatuno, we take on the role of a young 'Novato' who wants to become a 'tuno,' 
-                                    so he must impress the rest of the group by mastering his mandolin’s rhythm and completing various challenges.
+                              </div>
 
-                                    <br><br><b>Main mechanics:</b> 
-                                    <ul>
-                                        <li><b>Play notes on time:</b> The more accurately players play each note according to its timestamp, the more points they will get.</li>
-                                        <li><b>Chord change:</b> In addition to playing notes on time, players must play them on the correct chord. The chord changes occur cyclically</li>
-                                        <li><b>Note combo:</b> The note combo increases with each note the player plays without failing. Higher combos grant players bonus points</li>
-                                    </ul>
-
-                                    <br><b>Unique Selling Points:</b> 
-                                    <ul>
-                                        <li><b>Original game theme:</b> First game based on "Las tunas" of Spain.</li>
-                                        <li><b>Online ranking:</b> Players can compete to reach the highest scores.</li>
-                                        <li><b>Folkloric Spanish music</b></li>
-                                        <li><b>Inspired by real-life locations and stories.</b></li>
-                                        <li><b>Cartoon pixel art style</b></li>
-                                    </ul>   
-
-                                    <br><b>Main competitors:</b> 
-                                    <ul>
-                                        <li><b>Friday Night Funkin</b></li>
-                                        <li><b>Guitar hero</b></li>
-                                    </ul>  
-                                </p>
-
-                                <img src="img/novatuno/gameplay2.jpg" alt="Novatuno Itch image" class="img-fluid"><br>  
-
-                            </div>
-                              
                           </div>
                       </div>
                   </section>
